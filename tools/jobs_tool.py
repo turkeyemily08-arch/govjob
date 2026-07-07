@@ -92,7 +92,8 @@ def main():
         for k in ('fitReason', 'duty', 'region', 'type', 'deadlineDoc', 'deadlineDocLabel',
                   'deadlineWritten', 'deadlineInterview', 'deadlineInterview2', 'deadlineAnnounce',
                   'ncs', 'memo', 'collected', 'docEvalType', 'docEvalRatio', 'salary', 'headcount',
-                  'notice', 'deadlineTime', 'driveUrl', 'failReason', 'startDate'):
+                  'notice', 'deadlineTime', 'driveUrl', 'failReason', 'startDate',
+                  'docStart', 'interviewAI', 'nextDate', 'nextLabel'):
             new_job[k] = ''
         new_job.update({'doc': '-', 'written': '-', 'final': '-', 'fit': 0, 'status': '접수중'})
         new_job.update(overrides)
